@@ -6,8 +6,8 @@
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
-	width: 100px;
-	height: 100px;
+	inline-size: 100px;
+	block-size: 100px;
 	background-color: #000000;
 	border-right: 1px;
 	transition: transform 0.5s ease;
@@ -19,8 +19,8 @@
 
 .arrow {
 	flex-shrink: 0;
-	width: 48px;
-	height: 48px;
+	inline-size: 48px;
+	block-size: 48px;
 	transform: rotate(180deg);
 	transition: transform 0.5s ease;
 }
